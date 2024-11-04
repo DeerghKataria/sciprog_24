@@ -7,7 +7,7 @@ This repository contains two C programs for Week 2 practical exercises: `convers
 
 ## To Run:
 ```bash
-gcc conversion.c -o conversion
+gcc conversion.c -o conversion -lm
 ./conversion
 
 gcc sum.c -o sum
