@@ -13,27 +13,15 @@ int main(void)
     float sum = tan(a) + tan(b_rad);
     printf("The value of sum before the loop is: %f\n", sum);
 
-    // int i;
-    // for(i = 5; i < 60; i += 5)
-    // {
-    //     sum += 2 * tan(i * M_PI / 180);
-    // }
-
     int i = 5;
     while (i < 60)
     {
         sum += 2 * tan(i * M_PI / 180);
         i += 5;
-
-        switch(i % 2)
-        {
-        case 0:
-            printf("I am even and here's the value of sum: %f\n", sum);
-        }
     }
 
     printf("The value of sum after the loop is: %f\n", sum);
-    sum = (b_rad - a) / (2 * N) * sum;
+    sum = ((b_rad - a) / (2 * N)) * sum;
 
     printf("The final value of sum is: %f\n", sum);
     printf("The value of sum is: %f\n", sum);
