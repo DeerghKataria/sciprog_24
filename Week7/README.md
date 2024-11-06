@@ -11,7 +11,7 @@ This repository contains two C programs for Week 7 practical exercises: `finde.c
 - Allocates memory for the terms in the `e` approximation series.
 - Calculates each term as \( \frac{1}{(i+1)!} \) and sums them to approximate `e`.
 - Outputs each term, the final estimate for `e`, and the difference from the true value of `e`.
-- Frees allocated memory after the calculation.
+- Frees allocated memory after the calculation.<br/>
 
 ### `pointers.c`
 - Allocates memory for an integer array of a specified size (5 in this case).
