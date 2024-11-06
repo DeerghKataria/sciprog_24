@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-int main(){
+int main()
+{
     int n = 5, p = 3, q = 4;
     double A[n][p], B[p][q], C[n][p];
 
@@ -58,8 +59,6 @@ int main(){
         }
         printf("\n");
     }
-        
-    
 
     return 0;
 }
