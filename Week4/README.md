@@ -3,3 +3,9 @@ This repository contains one C program for Week 4 practical exercises: `Prac4.c`
 
 ## Files Included:
 `Prac4.c` - A program that computes the approximate area under the tangent curve from 0 to 60 degrees using the trapezoidal rule. It also compares the result with the actual value of the integral, `ln(2)`.
+
+## To Run:
+```bash
+gcc Prac4.c -o Prac4 -lm
+./trap
+```
