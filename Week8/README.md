@@ -2,7 +2,7 @@
 This repository contains two C programs for Week 7 practical exercises: `finde.c` and `pointers.c`. The programs demonstrate the use of dynamic memory allocation, pointers, and recursion in C.
 
 ## Files Included:
-`gcd.c.c` - A program that calculates the GCD of two positive integers using Euclid's algorithm. The program provides both an iterative and a recursive approach to calculate the GCD.<br/>
+`gcd.c` - A program that calculates the GCD of two positive integers using Euclid's algorithm. The program provides both an iterative and a recursive approach to calculate the GCD.<br/>
 
 ## Program Details:
 ### `gcd.c`
