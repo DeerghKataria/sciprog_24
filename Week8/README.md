@@ -1,5 +1,5 @@
 # Week 8 Practical
-This repository contains two C programs for Week 7 practical exercises: `finde.c` and `pointers.c`. The programs demonstrate the use of dynamic memory allocation, pointers, and recursion in C.
+This repository contains C programs for Week 8 practical exercises: gcd.c for calculating the GCD of two numbers using Euclid's algorithm.
 
 ## Files Included:
 `gcd.c` - A program that calculates the GCD of two positive integers using Euclid's algorithm. The program provides both an iterative and a recursive approach to calculate the GCD.<br/>
